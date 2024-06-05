@@ -1,5 +1,5 @@
 # Anonymous Code Repository for "Dynamically Scaled Temperature in Self-Supervised Contrastive Learning"
-## Submitted to ECCV 2024
+## Submitted to IEEE Transactions on Artificial Intelligence
 
 - smallscale directory contains the code to reproduce our results on CIFAR datasets
 - imagenet directory contains code to reproduce our results on ImageNet100 and ImageNet1K datasets
