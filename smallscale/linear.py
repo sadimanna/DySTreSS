@@ -16,7 +16,6 @@ from model import Model
 class Net(nn.Module):
     def __init__(self, num_class, pretrained_path):
         super(Net, self).__init__()
-
         # encoder
         self.f = Model().f
         # classifier
