@@ -192,6 +192,5 @@ if __name__ == '__main__':
         print(cls_report)
         outfile.write(cls_report)
         outfile.write("------------------------------------\n\n")
-
     outfile.close()
     
