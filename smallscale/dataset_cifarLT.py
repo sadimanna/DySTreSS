@@ -135,7 +135,6 @@ def get_dataloader_cifarLT(args):
 
     trainloader = DataLoader(trainset, batch_size=args.batch_size, shuffle=True)
     testloader = DataLoader(testset, batch_size=1, shuffle=False)
-
     return trainloader, testloader
 
 
