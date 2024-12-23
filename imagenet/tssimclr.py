@@ -9,6 +9,7 @@ from torchvision.models import resnet50
 
 from lightly.loss.ntx_ent_loss import NTXentLoss
 from ts_ntx_ent_loss import TSNTXentLoss
+
 from lightly.models.modules import SimCLRProjectionHead
 from lightly.models.utils import get_weight_decay_parameters
 from lightly.transforms import SimCLRTransform
