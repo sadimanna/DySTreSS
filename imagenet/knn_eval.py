@@ -1,5 +1,4 @@
 from pathlib import Path
-
 import torch
 from pytorch_lightning import LightningModule, Trainer
 from pytorch_lightning.callbacks import DeviceStatsMonitor
