@@ -9,6 +9,7 @@ from torchvision.models import resnet50
 
 from lightly.loss.dcl_loss import DCLLoss
 from ts_dcl_loss import TSDCLLoss
+
 from lightly.models.modules import SimCLRProjectionHead
 from lightly.models.utils import get_weight_decay_parameters
 from lightly.transforms import SimCLRTransform
