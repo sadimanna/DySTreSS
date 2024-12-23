@@ -4,8 +4,10 @@ import numpy as np
 from numpy import ndarray
 import torch
 from torch import Tensor, device
+
 import transformers
 from transformers import AutoModel, AutoTokenizer
+
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import normalize
 from typing import List, Dict, Tuple, Type, Union
