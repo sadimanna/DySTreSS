@@ -1,7 +1,6 @@
 """
 Convert SimCSE's checkpoints to Huggingface style.
 """
-
 import argparse
 import torch
 import os
