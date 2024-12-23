@@ -7,7 +7,6 @@ from torchvision.models.resnet import resnet18, resnet50
 class Model(nn.Module):
     def __init__(self, feature_dim=128):
         super(Model, self).__init__()
-
         self.f = []
         for name, module in resnet18().named_children():
             if name == 'conv1':
