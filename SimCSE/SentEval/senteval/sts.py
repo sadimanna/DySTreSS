@@ -3,7 +3,7 @@
 #
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
-#
+
 
 '''
 STS-{2012,2013,2014,2015,2016} (unsupervised) and
