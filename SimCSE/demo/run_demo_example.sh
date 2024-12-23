@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# This example shows how to run the flask demo of SimCSE
+# This example shows how to run 
+# the flask demo of SimCSE
 
 python flaskdemo.py \
     --model_name_or_path princeton-nlp/sup-simcse-bert-base-uncased \
