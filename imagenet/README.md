@@ -69,7 +69,6 @@ python main.py --batch-size-per-device 128 \
     --skip-finetune-eval    # no finetune evaluation
 ```
 
-
 ## ImageNet100
 
 For ImageNet100 you have to adapt the dataset location and set number of classes to 100:
