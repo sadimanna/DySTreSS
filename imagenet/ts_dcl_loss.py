@@ -5,10 +5,10 @@ import torch
 from torch import Tensor
 from torch import distributed as torch_dist
 from torch import nn
+
 import numpy as np
 
 from lightly.utils import dist
-
 
 def negative_mises_fisher_weights(
     out0: Tensor, out1: Tensor, sigma: float = 0.5
