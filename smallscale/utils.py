@@ -6,7 +6,6 @@ from torchvision.datasets import CIFAR10, CIFAR100, ImageFolder
 class CIFAR10Pair(CIFAR10):
     """CIFAR10 Dataset.
     """
-
     def __getitem__(self, index):
         img, target = self.data[index], self.targets[index]
         img = Image.fromarray(img)
